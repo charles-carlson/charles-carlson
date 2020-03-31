@@ -45,6 +45,8 @@ export default {
 p{
     color:white;
     font-family: monospace;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 #ul1{
     display: inline-block;
