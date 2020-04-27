@@ -1,17 +1,16 @@
 <template>
 <div>
-    <b-container>
-    <b-row>
-        <b-col :style="colStyle"><h1>Projects</h1></b-col>
+    <b-container :style="containerStyle">
+    <b-row :style="colStyle">
+        <b-col ><h1>Projects</h1></b-col>
     </b-row>
-    <b-row>
-        <b-col :style="colStyle">
-        Some of the projects I have worked on range from web applications to GUI applications and drones.
+    <b-row :style="colStyle">
+        <b-col>
+        Some of the projects I have worked on range from<br> web applications to GUI applications and drones.<br>
         <a href="https://github.com/charles-carlson">For general projects go to my github</a>
         </b-col>
     </b-row>
-    </b-container>
-    <b-card no-body border-variant="dark">
+    <b-card no-body border-variant="dark" :style='cardStyle'>
         <b-tabs no-fade card vertical>
             <b-tab lazy>
                 <template v-slot:title>
@@ -51,6 +50,7 @@
             </b-tab>
         </b-tabs>
     </b-card>
+    </b-container>
 </div>
 </template>
 
@@ -80,7 +80,18 @@ export default {
       },
       colStyle: {
         color: 'white',
-        fontFamily: 'monospace'
+        fontFamily: 'monospace',
+        marginBottom: '5px'
+      },
+      cardStyle: {
+        marginTop: '15px',
+        maxWidth: '50rem',
+        maxHeight: '25rem'
+      },
+      containerStyle: {
+        borderStyle: 'solid',
+        borderWidth: '15px',
+        marginTop: '10px'
       }
     }
   }
@@ -95,6 +106,9 @@ h1{
 p{
     color:white;
     font-family: monospace;
+}
+.card{
+  border:none
 }
 
 </style>
