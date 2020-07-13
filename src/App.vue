@@ -2,8 +2,8 @@
   <div id="app">
     <Header/>
     <About/>
-    <Skills/>
     <Experience/>
+    <Skills/>
     <Projects/>
     <Interests/>
   </div>

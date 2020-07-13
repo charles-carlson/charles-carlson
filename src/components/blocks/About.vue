@@ -24,7 +24,7 @@
             <p id='header'>##School</p>
             <p>St. Olaf College, May 2020, Bachelor of Arts in Computer Science</p>
             <p id='header'>##GPA</p>
-            <p>3.1/3.39</p>
+            <p>Overall 3.16/ Major 3.46</p>
             <p id='header'>##Coursework</p>
             <p>Hardware Design, Software Design, Algorithms and Data-structures,<br>
             Robotics, Mobile Computing, Parallel Distributed Computing,<br>

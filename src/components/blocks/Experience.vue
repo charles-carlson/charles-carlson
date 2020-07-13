@@ -20,8 +20,8 @@
         <p>Revamped the loan calculator on the client site <br>
         making it easier for company’s clients to understand <br>
         their monthly interest and total payment.<br>
-        Created functions to automate emails from the backend admin page in Django<br>
-        to help supervisor receive daily reports on useful client and finance data.</p>
+        I developed utilities to automate a daily email report containing client data<br>
+        I looked into creating a route that would generate a map of all the clients in the UK.</p>
       </b-col>
       <b-col>
         <p>IT Intern</p>
@@ -60,6 +60,7 @@ export default {
 <style scoped>
     #linkedIn{
         margin-top: 20px;
+        font-family: monospace;
     }
     .display-3{
         font-size: 16px;
